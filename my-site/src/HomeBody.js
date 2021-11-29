@@ -181,8 +181,7 @@ const HomeBody = ({ timeline, ease }) => {
         Hi! Welcome to King Fai Wu's website!
       </div>
       <div className={classes.body} ref={(el) => (bodyContent = el)}>
-        I'm a web developer with a focus on the MERN stack, but still exploring
-        other technologies and frameworks that catch my interest! if you're
+        I'm a web developer with a focus on the MERN stack, who is passionate to become a better developer! If you're
         looking for a developer to add to your team, I'd love to hear from you!
       </div>
       <div className={classes.resumeBtn} ref={(el) => (btn = el)}>
