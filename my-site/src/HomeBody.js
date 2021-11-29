@@ -32,6 +32,7 @@ const useStyles = createUseStyles({
     position: "absolute",
     right: "10%",
     fontFamily: "Gloria Hallelujah",
+    fontSize: "1.5rem",
   },
   mainContent: {
     width: "100%",
@@ -193,11 +194,10 @@ const HomeBody = ({ timeline, ease }) => {
           style={{ textDecoration: "none" }}
         >
           <Button
-            variant="outlined"
-            size="medium"
-            trailingIcon="picture_as_pdf"
+            variant="contained"
+            size="large"
           >
-            View Resume
+            Click to View Resume
           </Button>
         </a>
       </div>

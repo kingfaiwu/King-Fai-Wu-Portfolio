@@ -37,14 +37,15 @@ const Footer = () => {
     <footer>
       <Box className={classes.myBox}>
         <Grid container spacing={3}>
-          <a
-            href="https://github.com/kingfaiwu/King-Fai-Wu-Portfolio.git"
-            target="_blank"
-          >
-            <Grid item xs={12} md={3}>
+          <Grid item xs={12} md={3}>
+            <a
+              href="https://github.com/kingfaiwu/King-Fai-Wu-Portfolio.git"
+              target="_blank"
+            >
               <FaGithub className={classes.footerIcon} />
-            </Grid>
-          </a>
+            </a>
+          </Grid>
+
           <Grid item xs={12} md={3}>
             <a href="https://www.linkedin.com/in/king-fai-wu" target="_blank">
               <FaLinkedin className={classes.footerIcon} />
